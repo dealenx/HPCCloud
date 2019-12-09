@@ -90,6 +90,7 @@ def create_openfoam_job(task, *args, **kwargs):
         'name': 'openfoam_run',
         'commands': [
             'python $PWD/simput-unpack.py $PWD/input-deck.json $PWD',
+            'touch test.txt',
             'docker start of_v1612_plus',
             'docker exec -t of_v1612_plus $PWD/DockerRun $PWD'
         ],
