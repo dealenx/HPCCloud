@@ -85,6 +85,7 @@ def create_openfoam_job(task, *args, **kwargs):
         'name': 'openfoam_run',
         'commands': [
             'chmod +x $PWD/run.sh',
+            'touch test.txt',
             'xhost +local:of_v1612_plus',
             'docker start of_v1612_plus',
             'docker exec -t of_v1612_plus $PWD/run.sh $PWD'
