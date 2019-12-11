@@ -56,7 +56,7 @@
     "paraviewweb": "3.1.2",
     "pvw-visualizer": "3.1.10",
     "vtk.js": "6.3.14",
-    "simput": "1.5.0",
+    "simput": "dealenx/simput",
     "candela": "0.19.1",
     "kw-doc": "1.1.1",
     "kw-web-suite": "6.0.1"
