@@ -7,9 +7,9 @@ import PropertyPanelBlock from 'paraviewweb/src/React/Properties/PropertyPanel';
 /* eslint-disable import/extensions */
 import Simput from 'Simput';
 /* eslint-enable import/extensions */
-import SimputLabels from 'simput/src/Labels';
-import ViewMenu from 'simput/src/ViewMenu';
-import modelGenerator from 'simput/src/modelGenerator';
+import SimputLabels from 'simput-kemsu/src/Labels';
+import ViewMenu from 'simput-kemsu/src/ViewMenu';
+import modelGenerator from 'simput-kemsu/src/modelGenerator';
 
 import style from 'HPCCloudStyle/PageWithMenu.mcss';
 

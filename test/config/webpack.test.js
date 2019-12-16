@@ -50,14 +50,17 @@ module.exports = {
     alias: {
       'PVWStyle/ReactProperties/PropertyPanel.mcss': path.join(
         __dirname,
-        '../../node_modules/simput/style/PropertyPanel.mcss'
+        '../../node_modules/simput-kemsu/style/PropertyPanel.mcss'
       ),
       PVWStyle: path.join(__dirname, '../../node_modules/paraviewweb/style'),
       // see that file for why we do this.
       workflows: path.join(__dirname, '../../test/helpers/workflowNames'),
       // Constants.js uses Theme.mcss
       HPCCloudStyle: path.join(__dirname, '../../style'),
-      SimputStyle: path.join(__dirname, '../../node_modules/simput/style'),
+      SimputStyle: path.join(
+        __dirname,
+        '../../node_modules/simput-kemsu/style'
+      ),
     },
   },
   externals: {

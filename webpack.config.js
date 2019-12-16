@@ -44,14 +44,14 @@ module.exports = {
   resolve: {
     alias: {
       'PVWStyle/ReactProperties/PropertyPanel.mcss': path.resolve(
-        './node_modules/simput/style/PropertyPanel.mcss'
+        './node_modules/simput-kemsu/style/PropertyPanel.mcss'
       ),
       PVWStyle: path.join(__dirname, './node_modules/paraviewweb/style'),
       VisualizerStyle: path.join(
         __dirname,
         './node_modules/pvw-visualizer/style'
       ),
-      SimputStyle: path.resolve('./node_modules/simput/style'),
+      SimputStyle: path.resolve('./node_modules/simput-kemsu/style'),
       HPCCloudStyle: path.resolve('./style'),
       workflows: path.resolve('./src/workflows'),
     },

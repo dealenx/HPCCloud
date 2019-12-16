@@ -120,7 +120,7 @@ def create_openfoam_job(task, *args, **kwargs):
 
     source_path = os.path.abspath(
         os.path.join(os.path.dirname(__file__), '../../../../../',
-            'node_modules/simput/bin/unpack/simput-unpack.py'))
+            'node_modules/simput-kemsu/bin/unpack/simput-unpack.py'))
     target_path = os.path.join(target_dir, 'simput-unpack.py')
 
     # Upload unpack script

@@ -1,7 +1,7 @@
 module.exports = [
   {
     test: /\.js$/,
-    include: /node_modules(\/|\\)simput(\/|\\)/,
+    include: /node_modules(\/|\\)simput-kemsu(\/|\\)/,
     use: [
       {
         loader: 'babel-loader',
