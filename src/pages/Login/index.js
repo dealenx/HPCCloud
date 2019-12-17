@@ -27,7 +27,7 @@ class Login extends React.Component {
       <div className={layout.textCenter}>
         <div className={style.header}>
           <i className={style.topIcon} />
-          <p className={style.subtitle}> Login to HPCCloud TEST TEXT 3!</p>
+          <p className={style.subtitle}> Login to HPCCloud TEST TEXT 4!</p>
         </div>
         <form className={style.loginForm} onSubmit={this.handleSubmit}>
           <input

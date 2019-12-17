@@ -27,7 +27,7 @@
     "redux": "3.7.2",
     "reselect": "3.0.1",
     "shelljs": "0.8.1",
-    "simput-kemsu": "^0.0.0-semantically-release"
+    "simput-kemsu": "^0.0.2-semantically-release"
   },
   "devDependencies": {
     "axios": "0.18.0",
